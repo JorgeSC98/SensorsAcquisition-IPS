@@ -1,0 +1,929 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"30 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\ADC.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"87
+[v _Leer_Canal_ADC Leer_Canal_ADC `(i  1 e 2 0 ]
+"128
+[v _ADC_LecturaFiltro ADC_LecturaFiltro `(i  1 e 2 0 ]
+"167
+[v _strreverse strreverse `(v  1 e 1 0 ]
+"173
+[v _changeInt changeInt `(v  1 e 1 0 ]
+"190
+[v _Concat_Value Concat_Value `(v  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strcat.c
+[v _strcat strcat `(*.39uc  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"22 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\Calibration.c
+[v _Calibration_Init Calibration_Init `(v  1 e 1 0 ]
+"41
+[v _Calibration_Run Calibration_Run `(v  1 e 1 0 ]
+"72
+[v _Calibration_Automatic Calibration_Automatic `(v  1 e 1 0 ]
+"112
+[v _Calibration_Set Calibration_Set `(v  1 e 1 0 ]
+"18 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\EEPROM.c
+[v _EEPROM_Rx EEPROM_Rx `(uc  1 e 1 0 ]
+"26
+[v _EEPROM_Tx EEPROM_Tx `(v  1 e 1 0 ]
+"43
+[v _Lectura_Memoria Lectura_Memoria `(i  1 e 2 0 ]
+"61
+[v _Escritura_Memoria Escritura_Memoria `(v  1 e 1 0 ]
+"68
+[v _EEPROM_Decodificacion_Memoria EEPROM_Decodificacion_Memoria `(uc  1 e 1 0 ]
+"28 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\newmain.c
+[v _InitPort InitPort `(v  1 e 1 0 ]
+"45
+[v _Run_Protocol Run_Protocol `(v  1 e 1 0 ]
+"115
+[v _main main `(v  1 e 1 0 ]
+"19 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\Pot.c
+[v _Pot_Init Pot_Init `(v  1 e 1 0 ]
+"69
+[v _Pot_Reset Pot_Reset `(v  1 e 1 0 ]
+"72
+[v _Pot_Increase Pot_Increase `(v  1 e 1 0 ]
+"75
+[v _Pot_Decrease Pot_Decrease `(v  1 e 1 0 ]
+"78
+[v _Pot_Set Pot_Set `(v  1 e 1 0 ]
+"82
+[v _Pot_Change Pot_Change `(v  1 e 1 0 ]
+"94
+[v _Pot_Selector Pot_Selector `(v  1 e 1 0 ]
+"134
+[v _Pot_Increase_Vref Pot_Increase_Vref `(v  1 e 1 0 ]
+"137
+[v _Pot_Decrease_Vref Pot_Decrease_Vref `(v  1 e 1 0 ]
+"140
+[v _Pot_Reset_Vref Pot_Reset_Vref `(v  1 e 1 0 ]
+"143
+[v _Pot_Change_Vref Pot_Change_Vref `(v  1 e 1 0 ]
+"155
+[v _Pot_Set_Vref Pot_Set_Vref `(v  1 e 1 0 ]
+"14 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\UART.c
+[v _USART_Init USART_Init `(v  1 e 1 0 ]
+"38
+[v _USART_RxC USART_RxC `(uc  1 e 1 0 ]
+"43
+[v _USART_TxS USART_TxS `(uc  1 e 1 0 ]
+"65
+[v _USART_RxS USART_RxS `(v  1 e 1 0 ]
+"82
+[v _USART_Overflow USART_Overflow `(v  1 e 1 0 ]
+"13 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X/ADC.h
+[v _SENSOR_0 SENSOR_0 `i  1 e 2 0 ]
+"14
+[v _SENSOR_1 SENSOR_1 `i  1 e 2 0 ]
+"15
+[v _SENSOR_2 SENSOR_2 `i  1 e 2 0 ]
+"16
+[v _SENSOR_3 SENSOR_3 `i  1 e 2 0 ]
+"17
+[v _SENSOR_4 SENSOR_4 `i  1 e 2 0 ]
+"18
+[v _SENSOR_5 SENSOR_5 `i  1 e 2 0 ]
+"19
+[v _SENSOR_6 SENSOR_6 `i  1 e 2 0 ]
+"20
+[v _SENSOR_7 SENSOR_7 `i  1 e 2 0 ]
+"21
+[v _Lectura Lectura `i  1 e 2 0 ]
+"23
+[v _Suma Suma `l  1 e 4 0 ]
+"24
+[v _cadena cadena `[4]uc  1 e 4 0 ]
+"25
+[v _result result `[33]uc  1 e 33 0 ]
+"18 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X/Calibration.h
+[v _CALIBRATION_RUN CALIBRATION_RUN `a  1 e 1 0 ]
+"19
+[v _flag flag `a  1 e 1 0 ]
+"20
+[v _CALIBRATION_START CALIBRATION_START `uc  1 e 1 0 ]
+"21
+[v _SENSOR_ID SENSOR_ID `uc  1 e 1 0 ]
+"22
+[v _SENSOR_I SENSOR_I `uc  1 e 1 0 ]
+"23
+[v _Pot_Value Pot_Value `i  1 e 2 0 ]
+"24
+[v _Pot Pot `[2]uc  1 e 2 0 ]
+"25
+[v _Direction Direction `uc  1 e 1 0 ]
+"14 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X/EEPROM.h
+[v _data data `uc  1 e 1 0 ]
+"16
+[v _Calibration_value Calibration_value `i  1 e 2 0 ]
+"18 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X/UART.h
+[v _Conexion_perdida Conexion_perdida `uc  1 e 1 0 ]
+"3074 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4550.h
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+[s S891 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"3101
+[s S900 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S909 . 1 `S891 1 . 1 0 `S900 1 . 1 0 ]
+[v _LATBbits LATBbits `VES909  1 e 1 @3978 ]
+[s S939 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"3209
+[s S946 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S953 . 1 `S939 1 . 1 0 `S946 1 . 1 0 ]
+[v _LATCbits LATCbits `VES953  1 e 1 @3979 ]
+[s S851 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3291
+[s S860 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S869 . 1 `S851 1 . 1 0 `S860 1 . 1 0 ]
+[v _LATDbits LATDbits `VES869  1 e 1 @3980 ]
+"3376
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+[s S42 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3658
+[s S51 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S60 . 1 `S42 1 . 1 0 `S51 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES60  1 e 1 @3987 ]
+[s S430 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3876
+[s S437 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S444 . 1 `S430 1 . 1 0 `S437 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES444  1 e 1 @3988 ]
+[s S811 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"4034
+[s S820 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S829 . 1 `S811 1 . 1 0 `S820 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES829  1 e 1 @3989 ]
+[s S569 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4493
+[s S578 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S584 . 1 `S569 1 . 1 0 `S578 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES584  1 e 1 @3998 ]
+[s S1148 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 USBIF 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"4729
+[s S1157 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+[u S1160 . 1 `S1148 1 . 1 0 `S1157 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1160  1 e 1 @4001 ]
+[s S1069 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"4871
+[s S1078 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S1081 . 1 `S1069 1 . 1 0 `S1078 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES1081  1 e 1 @4006 ]
+"4916
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"4923
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"4930
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+[s S515 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4978
+[s S524 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S527 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S530 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S533 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S536 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S538 . 1 `S515 1 . 1 0 `S524 1 . 1 0 `S527 1 . 1 0 `S530 1 . 1 0 `S533 1 . 1 0 `S536 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES538  1 e 1 @4011 ]
+[s S463 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5186
+[s S472 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S481 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S484 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S486 . 1 `S463 1 . 1 0 `S472 1 . 1 0 `S481 1 . 1 0 `S484 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES486  1 e 1 @4012 ]
+"5403
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5415
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5427
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+[s S232 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"6532
+[s S237 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S244 . 1 `S232 1 . 1 0 `S237 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES244  1 e 1 @4032 ]
+[s S197 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"6607
+[s S200 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S207 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S212 . 1 `S197 1 . 1 0 `S200 1 . 1 0 `S207 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES212  1 e 1 @4033 ]
+[s S260 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"6711
+[s S263 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S267 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S274 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S277 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S280 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S283 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S286 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S289 . 1 `S260 1 . 1 0 `S263 1 . 1 0 `S267 1 . 1 0 `S274 1 . 1 0 `S277 1 . 1 0 `S280 1 . 1 0 `S283 1 . 1 0 `S286 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES289  1 e 1 @4034 ]
+"6793
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"6800
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"7987
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S1098 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"8615
+[s S1107 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S1116 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S1120 . 1 `S1098 1 . 1 0 `S1107 1 . 1 0 `S1116 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1120  1 e 1 @4082 ]
+"9206
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"9698
+[v _FERR FERR `VEb  1 e 0 @32090 ]
+"10181
+[v _OERR OERR `VEb  1 e 0 @32089 ]
+"10448
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"11039
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"115 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"121
+[v main@code code `uc  1 a 1 38 ]
+"176
+} 0
+"45
+[v _Run_Protocol Run_Protocol `(v  1 e 1 0 ]
+{
+"60
+} 0
+"190 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\ADC.c
+[v _Concat_Value Concat_Value `(v  1 e 1 0 ]
+{
+[v Concat_Value@id id `*.25uc  1 p 2 18 ]
+[v Concat_Value@Lectura0 Lectura0 `i  1 p 2 20 ]
+[v Concat_Value@Lectura1 Lectura1 `i  1 p 2 22 ]
+[v Concat_Value@Lectura2 Lectura2 `i  1 p 2 24 ]
+[v Concat_Value@Lectura3 Lectura3 `i  1 p 2 26 ]
+[v Concat_Value@Lectura4 Lectura4 `i  1 p 2 28 ]
+[v Concat_Value@Lectura5 Lectura5 `i  1 p 2 30 ]
+[v Concat_Value@Lectura6 Lectura6 `i  1 p 2 32 ]
+[v Concat_Value@Lectura7 Lectura7 `i  1 p 2 34 ]
+"216
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strcat.c
+[v _strcat strcat `(*.39uc  1 e 2 0 ]
+{
+[v strcat@dest dest `*.39uc  1 p 2 14 ]
+[v strcat@src src `*.35Cuc  1 p 2 16 ]
+"7
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"6
+[v strcpy@d d `*.39uc  1 a 2 12 ]
+"5
+[v strcpy@s s `*.35Cuc  1 a 2 10 ]
+"3
+[v strcpy@dest dest `*.39uc  1 p 2 4 ]
+[v strcpy@src src `*.35Cuc  1 p 2 6 ]
+"9
+} 0
+"173 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\ADC.c
+[v _changeInt changeInt `(v  1 e 1 0 ]
+{
+"175
+[v changeInt@wstr wstr `*.39uc  1 a 2 14 ]
+"176
+[v changeInt@sign sign `i  1 a 2 12 ]
+"173
+[v changeInt@value value `i  1 p 2 8 ]
+[v changeInt@str str `*.39uc  1 p 2 10 ]
+"189
+} 0
+"167
+[v _strreverse strreverse `(v  1 e 1 0 ]
+{
+"169
+[v strreverse@aux aux `uc  1 a 1 4 ]
+"167
+[v strreverse@begin begin `*.39uc  1 p 2 0 ]
+[v strreverse@end end `*.39uc  1 p 2 2 ]
+"172
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"128 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\ADC.c
+[v _ADC_LecturaFiltro ADC_LecturaFiltro `(i  1 e 2 0 ]
+{
+"131
+[v ADC_LecturaFiltro@i i `i  1 a 2 23 ]
+"129
+[v ADC_LecturaFiltro@lectura lectura `i  1 a 2 21 ]
+"128
+[v ADC_LecturaFiltro@n n `i  1 p 2 14 ]
+[v ADC_LecturaFiltro@Canal Canal `uc  1 p 1 16 ]
+"138
+} 0
+"87
+[v _Leer_Canal_ADC Leer_Canal_ADC `(i  1 e 2 0 ]
+{
+[v Leer_Canal_ADC@Canal Canal `uc  1 a 1 wreg ]
+"89
+[v Leer_Canal_ADC@ADC ADC `i  1 a 2 4 ]
+"87
+[v Leer_Canal_ADC@Canal Canal `uc  1 a 1 wreg ]
+"90
+[v Leer_Canal_ADC@Canal Canal `uc  1 a 1 3 ]
+"116
+} 0
+"155 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\Pot.c
+[v _Pot_Set_Vref Pot_Set_Vref `(v  1 e 1 0 ]
+{
+[v Pot_Set_Vref@amount amount `uc  1 a 1 wreg ]
+[v Pot_Set_Vref@amount amount `uc  1 a 1 wreg ]
+[v Pot_Set_Vref@amount amount `uc  1 a 1 9 ]
+"158
+} 0
+"140
+[v _Pot_Reset_Vref Pot_Reset_Vref `(v  1 e 1 0 ]
+{
+"142
+} 0
+"137
+[v _Pot_Decrease_Vref Pot_Decrease_Vref `(v  1 e 1 0 ]
+{
+[v Pot_Decrease_Vref@amount amount `uc  1 a 1 wreg ]
+[v Pot_Decrease_Vref@amount amount `uc  1 a 1 wreg ]
+[v Pot_Decrease_Vref@amount amount `uc  1 a 1 8 ]
+"139
+} 0
+"134
+[v _Pot_Increase_Vref Pot_Increase_Vref `(v  1 e 1 0 ]
+{
+[v Pot_Increase_Vref@amount amount `uc  1 a 1 wreg ]
+[v Pot_Increase_Vref@amount amount `uc  1 a 1 wreg ]
+[v Pot_Increase_Vref@amount amount `uc  1 a 1 8 ]
+"136
+} 0
+"143
+[v _Pot_Change_Vref Pot_Change_Vref `(v  1 e 1 0 ]
+{
+[v Pot_Change_Vref@direction direction `a  1 a 1 wreg ]
+"147
+[v Pot_Change_Vref@i i `uc  1 a 1 7 ]
+"143
+[v Pot_Change_Vref@direction direction `a  1 a 1 wreg ]
+[v Pot_Change_Vref@amount amount `uc  1 p 1 4 ]
+[v Pot_Change_Vref@direction direction `a  1 a 1 6 ]
+"154
+} 0
+"28 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\newmain.c
+[v _InitPort InitPort `(v  1 e 1 0 ]
+{
+"44
+} 0
+"14 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\UART.c
+[v _USART_Init USART_Init `(v  1 e 1 0 ]
+{
+[v USART_Init@BAUD BAUD `l  1 p 4 14 ]
+"31
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"41
+} 0
+"22 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\Calibration.c
+[v _Calibration_Init Calibration_Init `(v  1 e 1 0 ]
+{
+"40
+} 0
+"19 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\Pot.c
+[v _Pot_Init Pot_Init `(v  1 e 1 0 ]
+{
+"68
+} 0
+"30 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\ADC.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+[v ADC_Init@entradas_analogicas entradas_analogicas `uc  1 a 1 wreg ]
+[v ADC_Init@entradas_analogicas entradas_analogicas `uc  1 a 1 wreg ]
+[v ADC_Init@Vref Vref `uc  1 p 1 0 ]
+[v ADC_Init@Clock Clock `uc  1 p 1 1 ]
+[v ADC_Init@ADQT ADQT `uc  1 p 1 2 ]
+[v ADC_Init@justificacion justificacion `uc  1 p 1 3 ]
+[v ADC_Init@estado estado `uc  1 p 1 4 ]
+"32
+[v ADC_Init@entradas_analogicas entradas_analogicas `uc  1 a 1 6 ]
+"85
+} 0
+"41 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\Calibration.c
+[v _Calibration_Run Calibration_Run `(v  1 e 1 0 ]
+{
+"52
+[v Calibration_Run@i i `i  1 a 2 32 ]
+"71
+} 0
+"38 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\UART.c
+[v _USART_RxC USART_RxC `(uc  1 e 1 0 ]
+{
+"42
+} 0
+"61 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\EEPROM.c
+[v _Escritura_Memoria Escritura_Memoria `(v  1 e 1 0 ]
+{
+[v Escritura_Memoria@direccion direccion `uc  1 a 1 wreg ]
+"63
+[v Escritura_Memoria@i i `i  1 a 2 6 ]
+"62
+[v Escritura_Memoria@direccionFinal direccionFinal `uc  1 a 1 5 ]
+"61
+[v Escritura_Memoria@direccion direccion `uc  1 a 1 wreg ]
+[v Escritura_Memoria@string_pot string_pot `*.39uc  1 p 2 2 ]
+"63
+[v Escritura_Memoria@direccion direccion `uc  1 a 1 4 ]
+"67
+} 0
+"26
+[v _EEPROM_Tx EEPROM_Tx `(v  1 e 1 0 ]
+{
+[v EEPROM_Tx@direccion direccion `uc  1 a 1 wreg ]
+[v EEPROM_Tx@direccion direccion `uc  1 a 1 wreg ]
+[v EEPROM_Tx@dato dato `uc  1 p 1 0 ]
+[v EEPROM_Tx@direccion direccion `uc  1 a 1 1 ]
+"42
+} 0
+"112 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\Calibration.c
+[v _Calibration_Set Calibration_Set `(v  1 e 1 0 ]
+{
+[v Calibration_Set@s s `uc  1 a 1 wreg ]
+[v Calibration_Set@s s `uc  1 a 1 wreg ]
+[v Calibration_Set@s s `uc  1 a 1 25 ]
+"119
+} 0
+"65 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\UART.c
+[v _USART_RxS USART_RxS `(v  1 e 1 0 ]
+{
+[v USART_RxS@length length `uc  1 a 1 wreg ]
+"69
+[v USART_RxS@i i `i  1 a 2 23 ]
+"67
+[v USART_RxS@count count `l  1 a 4 19 ]
+"65
+[v USART_RxS@length length `uc  1 a 1 wreg ]
+[v USART_RxS@pointer pointer `*.39uc  1 p 2 13 ]
+[v USART_RxS@length length `uc  1 a 1 18 ]
+"81
+} 0
+"82
+[v _USART_Overflow USART_Overflow `(v  1 e 1 0 ]
+{
+"83
+[v USART_Overflow@temp temp `uc  1 a 1 12 ]
+"104
+} 0
+"43
+[v _USART_TxS USART_TxS `(uc  1 e 1 0 ]
+{
+"45
+[v USART_TxS@i i `i  1 a 2 10 ]
+"44
+[v USART_TxS@length length `i  1 a 2 8 ]
+"43
+[v USART_TxS@str str `*.35uc  1 p 2 4 ]
+"49
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.35Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.35Cuc  1 p 2 0 ]
+"12
+} 0
+"72 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\Calibration.c
+[v _Calibration_Automatic Calibration_Automatic `(v  1 e 1 0 ]
+{
+[v Calibration_Automatic@s s `uc  1 a 1 wreg ]
+[v Calibration_Automatic@s s `uc  1 a 1 wreg ]
+[v Calibration_Automatic@s s `uc  1 a 1 30 ]
+"77
+} 0
+"78 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\Pot.c
+[v _Pot_Set Pot_Set `(v  1 e 1 0 ]
+{
+[v Pot_Set@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Set@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Set@amount amount `uc  1 p 1 12 ]
+[v Pot_Set@sensor sensor `uc  1 a 1 13 ]
+"81
+} 0
+"69
+[v _Pot_Reset Pot_Reset `(v  1 e 1 0 ]
+{
+[v Pot_Reset@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Reset@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Reset@sensor sensor `uc  1 a 1 11 ]
+"71
+} 0
+"75
+[v _Pot_Decrease Pot_Decrease `(v  1 e 1 0 ]
+{
+[v Pot_Decrease@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Decrease@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Decrease@amount amount `uc  1 p 1 9 ]
+[v Pot_Decrease@sensor sensor `uc  1 a 1 10 ]
+"77
+} 0
+"72
+[v _Pot_Increase Pot_Increase `(v  1 e 1 0 ]
+{
+[v Pot_Increase@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Increase@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Increase@amount amount `uc  1 p 1 9 ]
+[v Pot_Increase@sensor sensor `uc  1 a 1 10 ]
+"74
+} 0
+"82
+[v _Pot_Change Pot_Change `(v  1 e 1 0 ]
+{
+[v Pot_Change@sensor sensor `uc  1 a 1 wreg ]
+"86
+[v Pot_Change@i i `uc  1 a 1 7 ]
+"82
+[v Pot_Change@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Change@direction direction `a  1 p 1 4 ]
+[v Pot_Change@amount amount `uc  1 p 1 5 ]
+[v Pot_Change@sensor sensor `uc  1 a 1 8 ]
+"93
+} 0
+"94
+[v _Pot_Selector Pot_Selector `(v  1 e 1 0 ]
+{
+[v Pot_Selector@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Selector@sensor sensor `uc  1 a 1 wreg ]
+[v Pot_Selector@status status `a  1 p 1 0 ]
+[v Pot_Selector@sensor sensor `uc  1 a 1 3 ]
+"133
+} 0
+"43 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\EEPROM.c
+[v _Lectura_Memoria Lectura_Memoria `(i  1 e 2 0 ]
+{
+[v Lectura_Memoria@direccion direccion `uc  1 a 1 wreg ]
+"54
+[v Lectura_Memoria@i_1218 i `i  1 a 2 28 ]
+"46
+[v Lectura_Memoria@i i `i  1 a 2 26 ]
+"52
+[v Lectura_Memoria@potenciometro_value potenciometro_value `[2]uc  1 a 2 24 ]
+"44
+[v Lectura_Memoria@potenciometro potenciometro `[2]uc  1 a 2 20 ]
+"53
+[v Lectura_Memoria@counter counter `uc  1 a 1 23 ]
+"45
+[v Lectura_Memoria@direccionX direccionX `uc  1 a 1 22 ]
+"43
+[v Lectura_Memoria@direccion direccion `uc  1 a 1 wreg ]
+"46
+[v Lectura_Memoria@direccion direccion `uc  1 a 1 19 ]
+"60
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"6
+[v atoi@n n `i  1 a 2 15 ]
+[v atoi@neg neg `i  1 a 2 13 ]
+"4
+[v atoi@s s `*.39Cuc  1 p 2 7 ]
+"16
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+{
+[v isspace@c c `i  1 p 2 0 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+{
+[v isdigit@c c `i  1 p 2 0 ]
+"8
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"18 C:\Users\saenz\Desktop\Maestria\IPS\IPS_PIC_FINAL\IPS_PCB.X\Calibración.X\EEPROM.c
+[v _EEPROM_Rx EEPROM_Rx `(uc  1 e 1 0 ]
+{
+[v EEPROM_Rx@direccion direccion `uc  1 a 1 wreg ]
+[v EEPROM_Rx@direccion direccion `uc  1 a 1 wreg ]
+[v EEPROM_Rx@direccion direccion `uc  1 a 1 0 ]
+"25
+} 0
+"68
+[v _EEPROM_Decodificacion_Memoria EEPROM_Decodificacion_Memoria `(uc  1 e 1 0 ]
+{
+[v EEPROM_Decodificacion_Memoria@direccion direccion `uc  1 a 1 wreg ]
+[v EEPROM_Decodificacion_Memoria@direccion direccion `uc  1 a 1 wreg ]
+[v EEPROM_Decodificacion_Memoria@direccion direccion `uc  1 a 1 2 ]
+"136
+} 0
